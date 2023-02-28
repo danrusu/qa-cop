@@ -3,6 +3,15 @@
 ## Agenda
 
 - meet the QA community
-- present the goals of this project
-- JavaScript intro - Objects, ChromeDev Tools Console
+- present project goals and structure
+- JavaScript intro
+  - Chrome **DevTools** Console
+  - Variables
+  - Objects literals
+  - **JSON**
 - Q&A
+
+## Resources
+
+- [DevTools Console](https://developer.chrome.com/docs/devtools/console/)
+- [JavaScript Objects](https://javascript.info/object)
