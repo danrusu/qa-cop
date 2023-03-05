@@ -48,6 +48,35 @@ salary = null;
 console.log(salary, typeof salary);
 ```
 
+### 2.1 Object literals
+
+```javascript
+const client = {
+  firstName: 'Jane',
+  lastName: 'Doe'
+  age: 25,
+  details: {
+    id: 1,
+    isActive: true,
+  }
+};
+console.log(JSON.stringify(client, null, 2));
+
+console.log('Client name:', client.firstName, client.lastName));
+console.log('Client id:', client.details.id);
+console.log('Client id:', client['details'].['id']);
+
+// update client info
+client.age++;
+client.deatils.id = 11;
+
+console.log('Updated client info:', JSON.stringify(client, null, 2));
+```
+
 ## 3. Resources
 
 - [JavaScript Objects](https://javascript.info/object)
+
+```
+
+```
