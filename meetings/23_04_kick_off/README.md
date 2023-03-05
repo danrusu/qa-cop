@@ -70,7 +70,7 @@ console.log('Customer id:', customer['details']['id']);
 customer.age++;
 customer.details.id = 11;
 
-console.log('Updated client info:', JSON.stringify(customer, null, 2));
+console.log('Updated customer info:', JSON.stringify(customer, null, 2));
 ```
 
 ## 3. Resources
