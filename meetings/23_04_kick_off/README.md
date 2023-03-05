@@ -1,17 +1,53 @@
 # QA-COP Kick Off Meeting - April 2023
 
-## Agenda
+## 1. Agenda
 
-- meet the QA community
-- present project goals and structure
+- Meet the QA community
+- Present project goals and structure
 - JavaScript intro
-  - Chrome **DevTools** Console
+  - Chrome **DevTools** [Console](https://developer.chrome.com/docs/devtools/console/) & [Snippets](https://developer.chrome.com/docs/devtools/javascript/snippets/)
   - Variables
+  - [Primitives](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures): Number, String, Boolean, Undefined, Null
   - Objects literals
   - **JSON**
 - Q&A
 
-## Resources
+## 2. Examples
 
-- [DevTools Console](https://developer.chrome.com/docs/devtools/console/)
+### 2.1 Variables
+
+```javascript
+// RECOMMENDATION: USE const AND let
+const age = 41; // block scoped; cannot reassign to the variable
+age = age + 1; // this will throw
+
+let salary = 5000; // block scoped; variable can be reassigned
+salary = salary + 500;
+salary = 'no income';
+
+var isSet = true; // globally/function scoped; variable can be redeclared and reassigned
+isSet = false;
+```
+
+### 2.1 Primitives
+
+```javascript
+const name = 'John';
+console.log(name, typeof name);
+
+let age = 30;
+console.log(age, typeof age);
+
+let isEmployed = true;
+console.log(isEmployed, typeof isEmployed);
+
+let salary;
+console.log(salary, typeof salary);
+
+salary = null;
+console.log(salary, typeof salary);
+```
+
+## 3. Resources
+
 - [JavaScript Objects](https://javascript.info/object)
