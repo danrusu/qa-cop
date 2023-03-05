@@ -80,8 +80,7 @@ console.log('First number is:', numbers[0]);
 console.log('Third number id:', numbers[2]);
 
 const colors = ['red', 'green'];
-console.log('Colors:', JSON.stringify(colors, null, 2)));
-
+console.log('Colors:', JSON.stringify(colors, null, 2));
 
 const name = 'Porsche';
 const model = '711';
