@@ -21,7 +21,8 @@
 const age = 41; // block scoped; cannot reassign to the variable
 age = age + 1; // this will throw
 
-let salary = 5000; // block scoped; variable can be reassigned
+let salary; // block scoped; variable can be reassigned
+salary = 2000;
 salary = salary + 500;
 salary = 'no income';
 
@@ -71,6 +72,27 @@ customer.age++;
 customer.details.id = 11;
 
 console.log('Updated customer info:', JSON.stringify(customer, null, 2));
+
+// Array
+const numbers = [11, 22, 33, 44, 55];
+console.log(numbers);
+console.log('First number is:', numbers[0]);
+console.log('Third number id:', numbers[2]);
+
+const colors = ['red', 'green'];
+console.log('Colors:', JSON.stringify(colors, null, 2)));
+
+
+const name = 'Porsche';
+const model = '711';
+const isDiesel = false;
+const engine = {
+  capacity: 3000,
+  hp: 300,
+};
+
+const car = { name, model, isDiesel, engine, colors };
+console.log('Car info', JSON.stringify(car, null, 2));
 ```
 
 ## 3. Resources
