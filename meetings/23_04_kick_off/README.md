@@ -12,7 +12,7 @@
   - **JSON**
 - Q&A
 
-## 2. Examples
+## 2. Code examples
 
 ### 2.1 Variables
 
