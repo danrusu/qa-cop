@@ -1,8 +1,6 @@
 # QA Community of Practice
 
-## Maintainers
-
-- [Dan Rusu](https://www.linkedin.com/in/rusu-dan/)
+## Maintainers: [Dan Rusu](https://www.linkedin.com/in/rusu-dan/)
 
 ## Events
 |Name|Date|Location|Details|
